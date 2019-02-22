@@ -16,16 +16,16 @@
         <div class="container">
             <h1>FORMULARIO DE DATOS</h1>
             <form action="resultados.jsp" method="GET">
-                Producto: <select name="selectPro">
+                Producto: <select name="select_Producto">
                     <!-- Lo que esta dentro de value es el valor que se va a enviar--> 
                     <option value="televisor">Televisor</option>
                     <option value="radio">Radio</option>
                     <option value="cocina">Cocina</option>
                 </select><br>
 
-                Precio: <input type="text" name="txt_precio"><br>
-                Cantidad: <input type="text" name="txt_cantidad"><br>
-                <input type="submit" name="btn_enviar" class="btn btn-success" value="Enviar Datos">
+                Precio: <input type="text" name="txt_Precio"><br>
+                Cantidad: <input type="text" name="txt_Cantidad"><br>
+                <input type="submit" name="btn_Enviar" class="btn btn-success" value="Enviar Datos">
                 </div>
             </form>
             <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
