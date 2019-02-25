@@ -7,21 +7,9 @@
 <%@page import="java.util.ArrayList"%>
 <%
     String color = request.getParameter("color");
-    //String[] validos = {"blue", "cyan", "magenta"};
-    
+    String[] validos = {"blue", "cyan", "magenta"};
     if ((color == "")) {
         color = "white";
-    }
-
-    ArrayList<String> array = new ArrayList<>();
-    array.add("magenta");
-    array.add("cyan");
-    array.add("blue");
-    array.add("cri");
-
-    for (int i = 0; i < array.size(); i++) {
-        //out.println(array.get(i));
-          out.print("<h3><p>" + array.get(i));
     }
 
 %>
